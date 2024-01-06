@@ -10,5 +10,9 @@ import { GamesComponent } from '../games/games.component';
 })
 export class UserComponent {
   username = 'gorgonzolast';
-  isLoggedIn = true;
+  isLoggedIn = false;
+
+  greet() {
+    alert('Hola');
+  }
 }
